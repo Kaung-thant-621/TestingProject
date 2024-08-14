@@ -18,6 +18,8 @@ public class HandlingSSl {
         devTools.send(Security.enable());
         devTools.send(Security.setIgnoreCertificateErrors(true));
 
+        ///
+
 
         driver.get("https://expired.badssl.com");
 
