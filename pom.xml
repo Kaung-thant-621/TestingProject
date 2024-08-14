@@ -36,12 +36,6 @@
 
 
 
-    <dependency>
-  		<groupId>seleniumjava</groupId>
-  		<artifactId>selenium</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	
   	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
@@ -50,6 +44,16 @@
 </dependency>
  
   </dependencies>
+  <repositories>
+    <repository>
+      <id>snapshots</id>
+      <url>https://repository.snapshots.com</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
